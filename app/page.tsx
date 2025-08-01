@@ -1,15 +1,17 @@
 import Image from "next/image";
-import ProductPage from "./product/page";
+import TicketCard from "./components/TicketCard";
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <h1 className="text-4xl font-bold">Welcome to TiketQ</h1>
-        <p className="text-lg">Your one-stop solution for event ticketing.</p>
-        <div>
-          <ProductPage />
-        </div>
-      </main>
-    </div>
+    <section className="bg-gradient-to-br from-purple-500 to-blue-500 min-h-screen">
+      <div className="container mx-auto p-8">
+        <main className="flex flex-col items-center sm:items-start justify-between mb-8">
+          <h1 className="text-4xl font-bold mb-2">Welcome to TiketQ</h1>
+          <p className="text-lg mb-2">Your one-stop solution for event ticketing.</p>
+          <div className="w-full rounded-lg shadow-lg">
+            <TicketCard tiket={""} id={0} eventName={""} location={""} time={""} isUsed={false} />
+          </div>
+        </main>
+      </div>
+    </section>
   );
 }

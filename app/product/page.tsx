@@ -4,11 +4,11 @@ import React from "react";
 export default function ProductPage() {
   return (
     <div>
-      <h1 className="text-2xl font-bold">Product Page</h1>
+      <h1 className="text-2xl font-bold mb-4">Product Page</h1>
       <ul>
         {tiket.map(({ id, eventName, location, time, isUsed }) => {
           return (
-            <div className="w-full flex grid grid-cols-2 gap-4 sm:grid-cols-3 border p-4 rounded-lg shadow-md card" key={id}>
+            <div className="w-full flex border p-4 rounded-lg shadow-md card mb-4 " key={id}>
               <li key={id} className="my-2">
                 <strong className="text-lg font-semibold text-gray-800">{eventName}</strong>
                 <br />

@@ -1,5 +1,5 @@
 import { useState } from "react";
-interface Ticket {
+export interface Ticket {
   id: number;
   eventName: string;
   location: string;
