@@ -27,7 +27,9 @@
 
 ## Screenshots
 
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](./public/Screenshot_1.png/)
+![Example screenshot](./public/Screenshot_2.png/)
+![Example screenshot](./public/Screenshot_3.png/)
 
 <!-- If you have screenshots you'd like to share, include them here. -->
 
