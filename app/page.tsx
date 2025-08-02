@@ -42,7 +42,7 @@ export default function Home() {
       </section>
       <footer className="bg-gray-800 text-white py-4">
         <div className="container mx-auto text-center">
-          <p>&copy; 2023 TiketQ. All rights reserved.</p>
+          <p>&copy; 2025 TiketQ. All rights reserved.</p>
         </div>
       </footer>
     </>

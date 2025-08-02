@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TicketQ Viewer UI
 
-## Getting Started
+> Build a frontend-only app that displays a list of event tickets with basic UI/UX features. Use hardcoded JSON (no backend), and focus on visuals, state, and component structure.
+> Live demo [_here_](https://tiketq-app.vercel.app/). <!-- If you have the project hosted somewhere, include the link here. -->
 
-First, run the development server:
+## Table of Contents
+
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Setup](#setup-and-run-locally)
+- [Contact](#contact)
+<!-- * [License](#license) -->
+
+## Technologies Used
+
+- Nextjs : 15.4.5 version 1.0
+- Tailwindcss - version 4.0
+- Typescript - version 5.0
+
+## Features
+
+- Live previews
+- Fullscreen mode
+- Cross platform
+- Filtering (show only used or unused tickets).
+
+## Screenshots
+
+![Example screenshot](./img/screenshot.png)
+
+<!-- If you have screenshots you'd like to share, include them here. -->
+
+## Setup and Run Locally
+
+Clone the project
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  git clone https://github.com/ahmadhilmi420/tiketq-app.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Go to the project directory
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+  cd tiketq-app
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Install dependencies
 
-## Learn More
+```bash
+  npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+Start the server
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+  npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Contact
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Created by [@ahmadhilmi420](https://github.com/ahmadhilmi420) - feel free to contact me!
